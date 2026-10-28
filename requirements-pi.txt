@@ -1,0 +1,5 @@
+ultralytics
+ncnn
+gpiozero
+# picamera2 and mpg123 come from apt:
+#   sudo apt install -y python3-picamera2 mpg123 espeak

@@ -1,0 +1,14 @@
+# secrets
+.env
+.env.*
+*.key
+
+# generated / large
+clips/
+photos/
+datasets/
+runs/
+__pycache__/
+*.pyc
+*.zip
+imager_*.exe
