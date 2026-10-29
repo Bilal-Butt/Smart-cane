@@ -1,0 +1,41 @@
+description: Ultralytics best model trained on /content/SOD-1/data.yaml
+author: Ultralytics
+date: '2026-10-24T16:19:02.539029+00:00'
+version: 8.4.187
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 416
+- 416
+names:
+  0: bench
+  1: bicycle
+  2: bus
+  3: bus_stop
+  4: cane
+  5: car
+  6: curb
+  7: dog
+  8: fire_hydrant
+  9: motorcycle
+  10: person
+  11: pole
+  12: spherical_roadblock
+  13: stairs
+  14: stop_sign
+  15: street_light
+  16: traffic_light
+  17: train
+  18: tree
+  19: truck
+  20: warning_column
+  21: waste_container
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false
